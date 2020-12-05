@@ -39,7 +39,7 @@ typedef int WS_ERROR;
 
 
 typedef struct _ws_url {
-	char scheme[6];
+	char scheme[8];
 	char port[10];
 	char*host;
 	char*path;

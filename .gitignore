@@ -23,7 +23,7 @@ test
 .libs
 .deps
 *dSYM
-
+/.vscode
 *.html
 /autom4te.cache
 /stamp-h1
