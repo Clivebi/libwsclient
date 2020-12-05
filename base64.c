@@ -193,7 +193,7 @@ size_t base64_decode(char *source, unsigned char *target, size_t targetlen)
  }
 
  /* convert the characters */
- tmplen = _base64_decode_triple(quadruple, tmpresult);
+ tmplen = _base64_decode_triple(quadruple, (unsigned char*)tmpresult);
 
  /* check if the fit in the result buffer */
  if (targetlen < tmplen)

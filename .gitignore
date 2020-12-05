@@ -22,6 +22,7 @@ test
 .*.swp
 .libs
 .deps
+*dSYM
 
 *.html
 /autom4te.cache
