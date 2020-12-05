@@ -215,6 +215,7 @@ int main(int argc, char **argv)
 		tcp_clean_up(&ctx);
 
 		libwsclient_free(client);
+		return -1;
 	}
 #endif
 	client->context = &ctx;
